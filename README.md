@@ -37,7 +37,7 @@ import { Client, IntentsBitField } from "discord.js";
 ```
 
 - this will import the Client from discord library and IntentsBitsField...
-- see ### DOCS: section for how Intents work
+- see [DOCS](https://github.com/colinwilliams91/discord-bot#docs): section for how Intents work
 
 ### DOCS:
 
