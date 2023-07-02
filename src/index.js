@@ -44,7 +44,8 @@ client.on("ready", (bot) => {
 });
 
 client.on("messageCreate", (message) => {
-  console.log(message.content);
+  /* message sent in server from any user: */
+  console.log(`Discord message: "${message.content}" from User: ${message.author} at ${message.createdAt}`);
   message.react('🤓');
 });
 
