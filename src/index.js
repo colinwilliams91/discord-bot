@@ -44,8 +44,13 @@ client.on("ready", (bot) => {
 });
 
 client.on("messageCreate", (message) => {
+  /* discord.js has built in recursion gaurds, but this validation will disallow bots from responding to each other, remove at your own risk 💀 */
+  if (message.author.bot) return;
+
   /* message sent in server from any user: */
   console.log(`Discord message: "${message.content}" from User: ${message.author} at ${message.createdAt}`);
+
+  /* bot will react to any message sent with this emoji */
   message.react('🤓');
 });
 
