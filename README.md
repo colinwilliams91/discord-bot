@@ -72,3 +72,7 @@ const client = new Client({
   ],
 });
 ```
+
+
+# TERMS OF USE
+_By using this repository in anyway you are agreeing to follow the Code of Conduct listed [here](https://github.com/colinwilliams91/discord-bot/blob/main/CODE_OF_CONDUCT.md)_
