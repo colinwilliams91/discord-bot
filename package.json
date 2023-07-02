@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "### Setup:",
   "main": "scr/index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/colinwilliams91/discord-bot/issues"
   },
-  "homepage": "https://github.com/colinwilliams91/discord-bot#readme"
+  "homepage": "https://github.com/colinwilliams91/discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
 }

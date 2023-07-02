@@ -16,6 +16,11 @@ const intentOptions = [
   IntentsBitField.Flags.MessageContent
 ];
 
+/**
+ * @class: `Client` from discord.js
+ * @instance: `client` is our Bot instance
+ * @argument: must take in an options object with `intents` array, all other properties are optional
+ */
 const client = new Client({
   intents: intentOptions
 });
