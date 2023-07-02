@@ -1,7 +1,7 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "### Setup:",
+  "description": "Discord Bot Bootstrap",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -11,8 +11,22 @@
     "type": "git",
     "url": "git+https://github.com/colinwilliams91/discord-bot.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Discord",
+    "custom",
+    "integration",
+    "bot",
+    "API",
+    "backend",
+    "bootstrap",
+    "boilerplate",
+    "npm",
+    "package",
+    "tool",
+    "open source"
+  ],
+  "author": "@colinwilliams91",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/colinwilliams91/discord-bot/issues"
   },
