@@ -7,7 +7,16 @@ the [setup](https://github.com/colinwilliams91/discord-bot#setup) below walks th
 
 ### [API](https://old.discordjs.dev/#/docs/discord.js/main/general/welcome)
 
+### Spin-up
+
+_if you have nodemon installed globally_
+```bash
+npm i
+nodemon
+```
+
 ### Setup:
+
 [Discord Docs Home/Guide/API](https://discord.js.org/)
 
 - visit the [Discord Developer Portal](https://discord.com/developers/applications)
@@ -28,23 +37,14 @@ the [setup](https://github.com/colinwilliams91/discord-bot#setup) below walks th
 - paste copied URL into Discord Server's channel || in the web browser
 - click pasted URL to invite Bot to Discord Server
 
-```bash
-npm init -y
-# --> inside package.json: "main": "src/index.js"
-mkdir src
-cd src
-touch index.js
-cd ..
-npm i discord.js
-```
-
 ### Environment:
 - rename `example.env` to `.env`
 - replace `TOKEN=` value with the Token from the Bot you want to build in your [Application Container](https://discord.com/developers/applications)
   - it will be located in the "Bot" section in the left-side panel
 
-`src/index.js`
+### Notes:
 
+`src/index.js`
 ```js
 import { Client, IntentsBitField } from "discord.js";
 ```
@@ -72,7 +72,17 @@ const client = new Client({
   ],
 });
 ```
+### If you wish to start from scratch:
 
+```bash
+npm init -y
+# --> inside package.json: "main": "src/index.js"
+mkdir src
+cd src
+touch index.js
+cd ..
+npm i discord.js dotenv
+```
 
 # TERMS OF USE
 _By using this repository in anyway you are agreeing to follow the Code of Conduct listed [here](https://github.com/colinwilliams91/discord-bot/blob/main/CODE_OF_CONDUCT.md)_
