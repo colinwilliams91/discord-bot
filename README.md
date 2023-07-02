@@ -1,6 +1,9 @@
 # Discord Bot/Integration Template
 
+### [API](https://old.discordjs.dev/#/docs/discord.js/main/general/welcome)
+
 ### Setup:
+[Discord Docs Home/Guide/API](https://discord.js.org/)
 
 - visit the [Discord Developer Portal](https://discord.com/developers/applications)
 - click "New Application" to create the bot/integration container
@@ -30,6 +33,11 @@ cd ..
 npm i discord.js
 ```
 
+### Environment:
+- rename `example.env` to `.env`
+- replace `TOKEN=` value with the Token from the Bot you want to build in your [Application Container](https://discord.com/developers/applications)
+  - it will be located in the "Bot" section in the left-side panel
+
 `src/index.js`
 
 ```js
@@ -39,7 +47,7 @@ import { Client, IntentsBitField } from "discord.js";
 - this will import the Client from discord library and IntentsBitsField...
 - see [DOCS](https://github.com/colinwilliams91/discord-bot#docs): section for how Intents work
 
-### DOCS:
+### [DOCS](https://old.discordjs.dev/#/docs/discord.js/main/general/welcome):
 
 ##### [List of Intents](https://discord.com/developers/docs/topics/gateway#list-of-intents)
 
