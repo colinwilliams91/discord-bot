@@ -19,23 +19,23 @@ nodemon
 
 [Discord Docs Home/Guide/API](https://discord.js.org/)
 
-- visit the [Discord Developer Portal](https://discord.com/developers/applications)
-- click "New Application" to create the bot/integration container
+- visit the **[Discord Developer Portal](https://discord.com/developers/applications)**
+- click **"New Application"** to create the bot/integration container
   - name the Application and agree to ToS
-- configure "General Information" if needed
-- click "Bot" in left-side panel
+- configure **"General Information"** if needed
+- click **"Bot"** in left-side panel
   - toggle `PUBLIC BOT` on `||` off
-  - toggle on all 3 "Priveleged Gateway Intents"
-  - select "Bot Permissions" as needed
-- click "OAuth2" in left-side panel
-  - click "URL Generator"
-    - select "bot" for bot scopes and permissions
-    - select "applications.commands" for `/` commands permissions if needed (to interact with bot in Discord)
+  - toggle on all **3** "Priveleged Gateway Intents"
+  - select **"Bot Permissions"** as needed
+- click **"OAuth2"** in left-side panel
+  - click **"URL Generator"**
+    - select **"bot"** for bot scopes and permissions
+    - select **"applications.commands"** for `/` commands permissions if needed (to interact with bot in Discord)
   - this will open the `BOT PERMISSIONS` section
-    - select "Administrator" for all permissions `||` specify permissions here
-  - click "Copy" button in lower-right to copy `GENERATED URL`
-- paste copied URL into Discord Server's channel `||` in the web browser
-- click pasted URL to invite Bot to Discord Server
+    - select **"Administrator"** for all permissions `||` specify permissions here
+  - click **"Copy"** button in lower-right to copy `GENERATED URL`
+- paste copied **URL** into Discord Server's channel `||` in the web browser
+- click pasted **URL** to invite Bot to Discord Server
 
 ### Environment:
 - rename `example.env` to `.env`
