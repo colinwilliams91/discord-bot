@@ -57,7 +57,7 @@ import { Client, IntentsBitField } from "discord.js";
 ##### [List of Intents](https://discord.com/developers/docs/topics/gateway#list-of-intents)
 
 We must explicitly define "Intents" in the options object to our Client generator function.
-Each "Intent" (i.e.; Guilds) will give access to a list of events (see documentation)
+Each "Intent" (e.g.; Guilds) will give access to a list of events (see documentation)
 that our bot will gain access to by passing in. (SO OUR BOT WILL KNOW WHEN THESE EVENTS OCCUR)
 
 ### IMPORTANT:
