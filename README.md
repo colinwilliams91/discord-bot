@@ -27,6 +27,7 @@ nodemon
   - toggle `PUBLIC BOT` on `||` off
   - toggle on all **3** "Priveleged Gateway Intents"
   - select **"Bot Permissions"** as needed
+  - make sure to click "SAVE" to changes in pop-up
 - click **"OAuth2"** in left-side panel
   - click **"URL Generator"**
     - select **"bot"** for bot scopes and permissions
